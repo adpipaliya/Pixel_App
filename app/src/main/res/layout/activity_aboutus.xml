@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity_aboutus"
+        android:background="@drawable/background">
+
+
+
+        <TextView
+            style="@style/txtAboutUs"
+            android:id="@+id/txtAboutUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="About US"
+            android:textColor="@color/white"
+            android:textSize="34dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgDarshan"
+            android:layout_marginStart="6dp"
+            android:layout_width="150dp"
+            android:layout_height="368dp"
+            app:srcCompat="@drawable/darshan"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="-11dp" />
+
+        <TextView
+            android:id="@+id/txtName1"
+            style="@style/AboutUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Name : Vyas Darshan Atulbhai"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgDarshan"
+            tools:layout_editor_absoluteY="99dp" />
+
+        <TextView
+            android:id="@+id/txtEmail1"
+            style="@style/AboutUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Email : dvyas329@rku.ac.in"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imgDarshan"
+            app:layout_constraintTop_toBottomOf="@+id/txtName1" />
+
+        <TextView
+            android:id="@+id/txtMobileNo1"
+            style="@style/AboutUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Mobile No : 7698269052"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imgDarshan"
+            app:layout_constraintTop_toBottomOf="@+id/txtEmail1" />
+
+        <TextView
+            android:id="@+id/txtEnrNo1"
+            style="@style/AboutUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Enrollment No : 19SOEIT13004"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgDarshan"
+            app:layout_constraintTop_toBottomOf="@+id/txtMobileNo1" />
+
+        <ImageView
+            android:id="@+id/imgVasu"
+            android:layout_width="150dp"
+            android:layout_height="368dp"
+            android:layout_marginStart="6dp"
+            app:srcCompat="@drawable/vasu"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/txtName2"
+            style="@style/AboutUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Name : Mathukiya Vasu Atulbhai"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgVasu"
+            app:layout_constraintTop_toBottomOf="@+id/txtEnrNo1" />
+
+        <TextView
+            android:id="@+id/txtEmail2"
+            style="@style/AboutUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Email : vmathukiya183@rku.ac.in"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imgVasu"
+            app:layout_constraintTop_toBottomOf="@+id/txtName2" />
+
+        <TextView
+            android:id="@+id/txtMobileNo2"
+            style="@style/AboutUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Mobile No : 9512522440"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imgVasu"
+            app:layout_constraintTop_toBottomOf="@+id/txtEmail2" />
+
+        <TextView
+            android:id="@+id/txtEnrNo2"
+            style="@style/AboutUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Enrollment No : 19SOEIT130801"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgVasu"
+            app:layout_constraintTop_toBottomOf="@+id/txtMobileNo2" />
+
+        <ImageView
+            android:id="@+id/imgAbhishek"
+            android:layout_width="150dp"
+            android:layout_height="368dp"
+            android:layout_marginStart="6dp"
+            app:srcCompat="@drawable/abhishek"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="391dp" />
+
+        <TextView
+            android:id="@+id/txtName3"
+            style="@style/AboutUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Name : Pipaliya Abhishek Damodarbhai"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgAbhishek"
+            app:layout_constraintTop_toBottomOf="@+id/txtEnrNo2" />
+
+        <TextView
+            android:id="@+id/txtEmail3"
+            style="@style/AboutUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Email : apipaliya858@rku.ac.in"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imgAbhishek"
+            app:layout_constraintTop_toBottomOf="@+id/txtName3" />
+
+        <TextView
+            android:id="@+id/txtMobileNo3"
+            style="@style/AboutUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Mobile No : 8000047811"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/imgAbhishek"
+            app:layout_constraintTop_toBottomOf="@+id/txtEmail3" />
+
+        <TextView
+            android:id="@+id/txtEnrNo4"
+            style="@style/AboutUs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="Enrollment No : 18SOEIT11025"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imgAbhishek"
+            app:layout_constraintTop_toBottomOf="@+id/txtMobileNo3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
