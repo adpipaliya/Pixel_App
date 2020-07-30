@@ -9,5 +9,13 @@
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
     </style>
+    <style name="AboutUs">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/quicksand_medium</item>
+        <item name="android:layout_marginStart">8dp</item>
+    </style>
+
+    <style name="txtAboutUs">txtAboutUs</style>
 
 </resources>
